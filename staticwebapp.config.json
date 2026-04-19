@@ -1,8 +1,1 @@
-{
-  "routes": [
-    {
-      "route": "/*",
-      "allowedRoles": ["authenticated"]
-    }
-  ]
-}
+{"routes":[{"route":"/*","allowedRoles":["authenticated"]}],"auth":{"rolesSource":"/","identityProviders":{"azureActiveDirectory":{"registration":{"openIdIssuer":"https://login.microsoftonline.com/0e54dd5d-674f-4371-9c3c-a5d16c4aca8b","clientIdSettingName":"AZURE_CLIENT_ID","clientSecretSettingName":"AZURE_CLIENT_SECRET_APP_SETTING_NAME"}}}}}
